@@ -1,0 +1,127 @@
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+   
+}
+.contenido_header1 {
+    width: 100%;
+    height: 90px;
+    background-color: #212121;
+    padding: 0 20px;
+    position: fixed;
+    z-index: 9999;
+}
+.contenido_center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.logo {
+    background-image: url(./images/plural.png);
+    width: 200px;
+    height: 90px;
+    margin-bottom: 22px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 90% auto;
+    position: relative;
+    display: inline-block;
+}
+.lista1_header {
+    display: flex;
+    flex-direction: row;
+}
+.div1_content {
+    display: flex;
+    justify-content: space-between;
+}
+.content_lista1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 0%;
+}
+.enlace_lista1 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 36px 20px;
+    position: relative;
+    text-decoration: none;
+    font-family: 'PS Commons';
+}
+.enlace_prueba {
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding: 11px 22px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-weight: 1000;
+    position: relative;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    font-family: "PS Commons" ;
+}
+.content_lista2 {
+    margin: 0%;
+    padding-left: 205px;
+}
+.span1 {
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    transform: rotate(45deg);
+    border: solid;
+    border-width: 0 2px 2px 0;
+    padding: 2px;
+    color: #fff;
+    top: -3px;
+    right: 0;
+    transition: all .3s ease;
+    margin-left: 2px;
+}
+.contenido_header2 {
+    display: flex;
+    background-image: linear-gradient(to right, #231A6F, #E9028F);
+    width: 196vh;
+    height: 68vh;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding: 100px 0;
+    position: relative;
+}
+.div_header2 {
+    margin: 0 auto; 
+}
+.div_content_2 {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.div_textos {
+    width: 100%;
+    align-items: center;
+    padding-right: 15px;
+    min-height: 1px;
+    padding-left: 15px;
+    line-height: 100%;
+}
+.text_reglas {
+    font-family: 'bely-display', sans-serif;
+    font-weight: 900;
+    margin-top:  20%;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
