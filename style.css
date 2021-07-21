@@ -88,20 +88,29 @@ body {
     transition: all .3s ease;
     margin-left: 2px;
 }
-.contenido_header2 {
+.div_content2 {
+    justify-content: center;
+    align-items: center;
     display: flex;
-    background-image: linear-gradient(to right, #231A6F, #E9028F);
-    width: 196vh;
-    height: 68vh;
+}
+.img {
+   
+}
+.contenido_header3 {
+    display: flex;
+    background-image: url(./images/fondo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: none;
+    position: relative;
     padding-bottom: 100px;
     padding-top: 100px;
-    padding: 100px 0;
     position: relative;
 }
-.div_header2 {
+.div_header3 {
     margin: 0 auto; 
 }
-.div_content_2 {
+.div_content_3 {
     margin: 0 auto;
     max-width: 1000px;
     width: 100%;
