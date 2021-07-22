@@ -1,11 +1,17 @@
+html {
+    margin: 0%;
+    padding: 0%;
+}
 body {
+    
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+    background-color: aqua;
    
 }
 .contenido_header1 {
-    width: 100%;
+    width: 95%;
     height: 90px;
     background-color: #212121;
     padding: 0 20px;
@@ -68,9 +74,15 @@ body {
     border-radius: 3px;
     border: 1px solid #fff;
 }
+.div_header2 {
+    width: 100%;
+    background-color: #FFFFFF;
+
+}
 .content_lista2 {
+    width: 100%;
     margin: 0%;
-    padding-left: 205px;
+    padding-left: 150px;
 }
 .span1 {
     display: inline-block;
@@ -125,8 +137,8 @@ body {
     background-size: cover;
     background-repeat: none;
     position: relative;
-    padding-top: 100px;
-    height: 430px;
+    padding-top: 50px;
+    height: 490px;
 }
 .div_header3 {
     text-align: center;
@@ -151,30 +163,117 @@ body {
 }
 .text_reglas {
     margin: 0%;
-    font-size: 56px;
-    line-height: 100%;
+    font-size: 60px;
+    padding-left: 2%;
     text-transform: none;
     font-family: 'PS Commons Bold';
     font-weight: 900;
     color: #FFFFFF;
-}.procesos {
+}
+.span2 {
+    
+}
+.procesos {
     margin: 0%;
-    padding-right: 22%;
+    padding-right: 23%;
     font-size: 56px;
-    line-height: 100%;
-    text-transform: none;
+    line-height: 1.4;
     font-family: 'PS Commons Bold';
-    font-weight: 900;
+    font-weight: 902;
     color: #FFFFFF;
 }
 .text_clientes {
     text-align: left;
-    padding-left: 26.5%;
+    padding-left: 26%;
     margin: 0%;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 450;
     line-height: 1.2;
-    text-transform: none;
     font-family: "ps commons";
     color: #FFFFFF;
 }
+.button_ver {
+    min-width: 250px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding: 18px 34px;
+    border-style: none;
+    background: #181818;
+    margin-top: 30px;
+    margin-left: 15%;
+}
+.enlace_ver {
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    line-height: 1.1;
+}
+.button_gratis {
+    margin-top: 30px;
+    margin-left: 2%;
+    min-width: 250px;
+    padding: 19px 29px;
+    font-weight: 900;
+    background: 0 0;
+    border: 1px solid #fff;
+    white-space: normal;
+    border-radius: 2px;
+}
+.enlace_gratis {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.1;
+    padding: 15px 30;
+    font-family: 'PS Commons Bold';
+    font-weight: normal;
+}
+.container_section1 {
+    width: 100%;
+    height: 380px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #000;
+}
+.div_container1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.div1 {
+    padding-left: 15px;
+    min-height: 1px;
+    width: 41.66667%;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 58.33333%;
+    right: auto;
+}
+.text_tecnologia {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #ec008c;
+    line-height: 1.4;
+    font-weight: 900;7
+    font-family: 'PS Commons Bold';
+    font-weight: normal;
+}
+.h3_temas {
+    font-size: 32px;
+    margin: 0 0 20px 0;
+    line-height: 1.2;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.text_p {
+    font-size: 17px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    color: #FFFFFF; 
+}
+.enlace_indice 
 
