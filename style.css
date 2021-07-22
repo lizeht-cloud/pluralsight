@@ -54,7 +54,6 @@ body {
     padding: 36px 20px;
     position: relative;
     text-decoration: none;
-    font-family: 'PS Commons';
 }
 .enlace_prueba {
     color: #ffffff;
@@ -68,7 +67,6 @@ body {
     text-decoration: none;
     border-radius: 3px;
     border: 1px solid #fff;
-    font-family: "PS Commons" ;
 }
 .content_lista2 {
     margin: 0%;
@@ -88,49 +86,95 @@ body {
     transition: all .3s ease;
     margin-left: 2px;
 }
+.contenido_header2 {
+    width: 100%;
+    padding-top: 90px;
+}
 .div_content2 {
     justify-content: center;
     align-items: center;
     display: flex;
+    padding-left: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
 .img {
-   
+   width: 7.5%;
+   height: 31px;
+   margin-right: 7px;
+}
+.text_ayudanos {
+    font-size: 16px;
+    color: #181818;
+    margin: 0%;
+    line-height: 120%;
+    padding-left: 10px;
+}
+.enlace_unete {
+    font-family: 'PS Commons Bold';
+    color: #ec008c;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 900;
+    text-decoration: none;
 }
 .contenido_header3 {
-    display: flex;
     background-image: url(./images/fondo.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: none;
     position: relative;
-    padding-bottom: 100px;
     padding-top: 100px;
-    position: relative;
+    height: 430px;
 }
 .div_header3 {
-    margin: 0 auto; 
+    text-align: center;
+    margin: 0;
+    padding: 0; 
 }
 .div_content_3 {
     margin: 0 auto;
     max-width: 1000px;
+    padding-left: 21%;
     width: 100%;
     display: flex;
     flex-direction: row;
    
 }
 .div_textos {
+    margin: 0 auto;
+    padding-right: 18%;
+    max-width: 1000px;
     width: 100%;
-    align-items: center;
-    padding-right: 15px;
-    min-height: 1px;
-    padding-left: 15px;
-    line-height: 100%;
+
 }
 .text_reglas {
-    font-family: 'bely-display', sans-serif;
+    margin: 0%;
+    font-size: 56px;
+    line-height: 100%;
+    text-transform: none;
+    font-family: 'PS Commons Bold';
     font-weight: 900;
-    margin-top:  20%;
-    font-size: 72px;
+    color: #FFFFFF;
+}.procesos {
+    margin: 0%;
+    padding-right: 22%;
+    font-size: 56px;
+    line-height: 100%;
+    text-transform: none;
+    font-family: 'PS Commons Bold';
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.text_clientes {
+    text-align: left;
+    padding-left: 26.5%;
+    margin: 0%;
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: none;
+    font-family: "ps commons";
     color: #FFFFFF;
 }
 
