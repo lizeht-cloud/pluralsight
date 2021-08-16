@@ -54,7 +54,7 @@ header a {
     color: var(--white20);
     text-decoration: none;
 }
-header a:hover {
+header :hover {
     color: var(--white30);
 }
 nav details summary {
@@ -103,6 +103,8 @@ pre {
 blockquote {
     margin-block-start: 80px;
     margin-block-end: 63px;
+    margin-left: 0;
+    margin-right: 0;
     padding-inline-end: 24px;
     padding-inline-start: 24px;
     padding-block-end: 24px;
@@ -162,6 +164,9 @@ blockquote span::before {
 }
 .section-content {
     counter-reset: titlelist;
+}
+.section-content2 {
+    margin-top: 0;
 }
 .section-content h3 {
     counter-increment: titlelist;
